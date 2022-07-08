@@ -70,11 +70,6 @@ export default {
           title: 'Студенты',
           to: '/students',
         },
-        {
-          icon: 'mdi-bookshelf',
-          title: 'Занятия',
-          to: '/lessons',
-        },
       ],
       miniVariant: false,
       right: true,
