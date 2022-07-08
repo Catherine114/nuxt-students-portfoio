@@ -1,6 +1,7 @@
 import axios from 'axios'
 import Vue from 'vue'
 const HOST = 'http://django-web.std-1362.ist.mospolytech.ru/api'
+axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*'
 
 export const state = () => ({
   placesData: {},
